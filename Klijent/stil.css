@@ -1,0 +1,238 @@
+.pice , .jelo{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+}
+body{
+    background-image: url(pozadina1.jpg);
+    display: inline;
+    font-size: 40px;
+    margin: 100px;
+    
+}
+.Naslov{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: inherit;
+    flex-basis: 100px;
+    justify-content: space-between;
+    border: 2px black;
+    margin:176px;
+}
+.btnPrikazi{
+    display:flex;
+    color: black;
+    background-color: greenyellow;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    padding: 12px 28px;
+    border-radius: 16px;
+    width: 20%;
+    position: relative;
+}
+.btnPrikazi:hover{
+    background-color:green ;
+    color:rgb(255, 255, 255) ;
+}
+
+.kontejner{
+display:inline-flex;
+flex-direction: column;
+flex: 1 0;
+align-items: center;
+justify-content: space-evenly;
+flex-basis: 200px;
+
+}
+.futerDiv{
+ display:inline-block;
+flex-direction: row;
+flex: 1 0;
+width: 10px;
+align-self: center;
+margin:5px;
+justify-content: space-around;
+flex-basis: 200px;
+}
+.btnDodaj{
+    display: flex;
+    font-style: inherit;
+    font-size: 27px;
+    text-align: center;
+    background-color: greenyellow;
+    border-radius: 10px;
+     
+}
+.btnDodaj:hover{
+    background-color:green ;
+    color:rgb(255, 255, 255) ;
+}
+.btnRezervisi{
+    display: flex;
+    font-style: inherit;
+    font-size: 27px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.btnRezervisi:hover{
+    background-color: darkorange;
+    color:rgb(255, 255, 255) ;
+}
+.glavniDiv{
+    display:inline-flexbox;
+    flex-direction: column;
+    font-size: 30px;
+    font-style: inherit;
+    flex: 1 0;
+    align-items: center;
+    margin:20px;
+    justify-content: space-around;
+    flex-basis: 200px;
+
+}
+.formaZaIzborSt{
+    display:inline-block;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.377);
+    flex: 1 0;
+    align-self: center;
+    margin:5px;
+    justify-content: space-around;
+    flex-basis: 200px;
+}
+.divZaSto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow:1 ;
+    justify-content: center;
+    align-content: center;   
+    background-color: rgba(255, 255, 255, 0.377);
+    justify-content:space-around;  
+
+
+}
+.btnZatvori{
+    display: flex;
+    font-style: inherit;
+    font-size: 27px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
+.btnPotvrdi{
+    display: flex;
+    font-style: inherit;
+    font-size: 27px;
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+.divZaPorIFormu{
+    /*display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    background-color: rgba(255, 255, 255, 0.377);*/
+    display:inline-block;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.377);
+    flex: 1 0;
+    align-self: center;
+    margin:5px;
+    justify-content: space-around;
+    flex-basis: 200px;
+}
+.btnDodajStavku{
+    display: flex;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+.btnOtkazi{
+    display: flex;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
+.btnPoruci{
+    display: flex;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 10px;
+
+}
+.btnObrisiStavku{
+    display: flex;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+
+}
+
+
+
+@media only screen and (max-width: 500px)  {
+    .glavniDiv{
+        flex-direction: column;
+        
+    }
+    
+  }
+  @media only screen and (max-device-width:500px)  {
+    .glavniDiv{
+        flex-direction: column;
+        
+    }
+    
+  }
+  @media only screen and (max-device-width:350px)  {
+    .Sto{
+        max-width: 340px;
+        
+    }
+    
+  }
+  @media only screen and (max-width:350px)  {
+    .Sto{
+        max-width: 340px;
+        
+    }
+    
+  }
+
+  @media only screen and (min-width:620px)  {
+    .Sto{
+        max-width: 200px;
+        flex-basis: 190px;
+        
+    }
+    
+  }
+@media only screen and (max-width: 650px) {
+   
+    .futerDiv{
+       width: 50%
+    }
+  }
+  @media only screen and (max-width: 500px)  {
+    .formaZaIzborSt{
+        flex-direction: row;
+        width: 100%;  
+    }
+}
+
+    
+    
